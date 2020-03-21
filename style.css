@@ -1,0 +1,79 @@
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display:block;
+}
+
+html, body {
+	background: #87677B; 
+	font-family: 'Lato','Crimson Text', helvetica, arial, sans-serif; 
+	font-size: 16px; 
+	color: #A0CFD3
+}
+.clear {clear: both;}
+
+#mainArea h1{
+	font-size: 2em;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+	color: #B4EDD2
+}
+
+p{
+	font-size: 1.1em;
+	line-height: 1.3em;
+	margin-bottom: 20px;
+	color: #B4EDD2
+}
+#portfolio {
+	width: 90%; 
+	max-width: 800px;
+	background:#9A7AA0;
+	margin: 30px auto;
+}
+#mainArea {
+	width: 90%;
+	max-width: 800px;
+	background:#9A7AA0;
+	margin: 30px auto;
+	padding: 0 40px;
+}
+.details {
+	padding: 25px 35px;
+	border-bottom: 2px solid #8D94BA;
+	background:#9A7AA0;
+}
+section {
+	border-top: 2px solid #8D94BA;
+	
+}
+section:first-child {
+	border-top: 2px solid #8D94BA;
+	padding: 20px 0 0;
+}
+section:last-child {
+	border-top: 2px solid #8D94BA;
+	padding: 20px 0 10px;
+}
+.sectionTitle{
+	float: left;
+	width: 25%
+
+}
+.sectionContent{
+	float: right;
+	width: 72.5%;
+}
+.sectionContent img{
+
+	width: 100%;
+}
+.details img{
+	
+	width: 50%;
+	margin-right: 30px
+	-webkit-border-radius: 50px;
+	border-radius: 30px
+}
+#portfolio h1{
+	font-size: 3em
+
+}
